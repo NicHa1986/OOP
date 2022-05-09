@@ -1,0 +1,12 @@
+<html>
+  {% block content %}
+    <h1>Scores</h1>
+    <ul>
+      {% for score in scores %}
+      <li>
+        {{score[0]}}
+      </li>
+      {% endfor %}
+    </ul>
+  {% endblock %}
+</html>
