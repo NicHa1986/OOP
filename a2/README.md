@@ -3,7 +3,9 @@
 This application captures the idea of a local doctors' surgery that asks to organize appointment and prescription requests by patients. The developed system/code can be run in using jupyter notebook and then running the corresponding file **surgery.ipynb** and it uses an object-oriented design. The aim of object-oriented programming is to create and use your own data structures. This leads to much more consistency in gathering data and it is in the design here specifically used for the two requests by patients:
 
 - Request for an appointment (adding or cancelling)
+
 AND/OR
+
 - Request for a repetitive prescription
 
 Starting the program, the app always listens to the user (= never ending while loop) and asks what the reason of his/her call is, an appointment or a prescription request. Given one of these two requests from patients, the system then makes the differentiation between a receptionist and a doctor. The former can handle appointment requests whereas the latter can handle prescription requests. 
